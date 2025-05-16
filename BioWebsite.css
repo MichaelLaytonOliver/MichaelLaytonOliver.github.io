@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background: repeating-radial-gradient(
+        circle at center,
+
+
+        grey,
+        lightgrey 200px
+        
+      );
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      perspective: 1000px;
+} .text-border { 
+  background-color: black;
+  border: 1px solid yellow;
+  border-radius: 10;
+  max-width: 800px;
+  margin: 100px auto 40px;
+  padding: 1px;
+  box-shadow: 0 8px 25px red;
+  backdrop-filter: blur(10px);
+
+  text-align: center;
+
+}
+.hover-link:hover {
+background-color: aqua;
+}
+h1 {
+  font-size: 100px;
+
+}
+p {
+  font-size: 50px;
+  color: red;
+}

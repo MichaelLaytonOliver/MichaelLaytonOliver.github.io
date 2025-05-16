@@ -1,0 +1,32 @@
+body {
+    background-color: black ;
+   
+    height: 500px; /* You must set a specified height */
+    background-position: middle; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    src: url(Jotaro.mp3)
+  }
+
+  h1 {
+    
+    color: yellow; /* sets the color of the header to blue*/
+    text-align: center;
+    font-size: 8em;
+    text-decoration: solid;
+    text-underline-position: below;
+  }
+  p {
+    padding-left: 2em;
+    color: white;
+    font-size: 2em;
+    margin-top: .75em;
+    padding-right: 2em;
+  }
+  li{
+    color: White;
+    font-size: 2.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    list-style-type: square;
+  }
